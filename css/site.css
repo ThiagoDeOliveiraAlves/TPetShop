@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D9D9D9;
+}
+
+header{
+    background: #ffa500;
+    display: flex;
+    height: 70px;
+}
+
+#logo{
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#phrase{
+    margin: auto;
+    margin-top: 35px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 480;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.sub-header{
+    background-color: #156082;
+    height: 30px;
+    color: #ffffff;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 25px;
+}
+ 
+#link-loja-fisica{
+    margin-top: 25px;
+    margin-right: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+#link-loja-fisica:hover{
+    color: #0000ff;
+    font-size: 18px;
+}
+
+
+.animalOptions{
+    /*background-color: rgb(236, 232, 232);*/
+    width: 1100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.animalOption{
+    border: 1px solid;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    height: 100px;
+    width: 160px;
+    margin: 20px 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.animalOption:hover{
+    border: 2px solid #008000;
+    color: #008000;
+    margin: 14px 14px;
+    padding: 16px;
+}
+
+.index-products{
+    border: 1px solid #929292;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px 15px;
+    height: 550px;
+    width: 1000px;
+}
+
+.product{
+    border: 1px solid;
+    border-radius: 15px;
+    height: 250px;
+    width: 150px;
+    margin: 10px 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.product:hover{
+    background-color: rgb(247, 240, 240);
+    /*rgb(226, 211, 211)*/
+}
+
+.product-name{
+    height: 3em;
+    max-height: 3em;
+    line-height: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product img{
+    /*border: 1px solid rgb(179, 168, 168);*/
+    border-radius: 15px;
+    margin: 10px 0px;
+    /*height: 130px;*/
+    height: 130px;
+}
+
+footer{
+    background-color: #ffa500;
+    height: 90px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
